@@ -1,0 +1,13 @@
+Nothing so special here. Just some weekend fun..
+
+mandelbrot.c:
+Does everything here.
+Compile with `gcc -lm mandelbrot.c -o mandelbrot` or use my magical executor! (https://github.com/Naheel-Azawy/Executor)
+Tested on linux. It should work on windows as well, hopefully.
+
+gen-my-wall.sh:
+That's my wallpaper at the moment.
+
+gen-julia-thing.sh:
+Something like https://en.wikipedia.org/wiki/Julia_set#/media/File:JSr07885.gif
+I know bash is a bad idea here, but.. whatever..

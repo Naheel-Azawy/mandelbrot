@@ -1,0 +1,5 @@
+./test/*
+mandelbrot
+*.ppm
+*.png
+*.jpg
