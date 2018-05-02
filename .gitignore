@@ -1,4 +1,4 @@
-./mbed/BUILD
+./mbed/BUILD/*
 ./test/*
 mandelbrot
 *.ppm
