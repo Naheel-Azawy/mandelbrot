@@ -1,6 +1,6 @@
 //#!/bin/execute julia7885
 // TODO: https://www.cs.colorado.edu/~srirams/courses/csci2824-spr14/gmpTutorial.html
-//#define MBED
+#define MBED
 #ifdef MBED
 #include "mbed.h"
 #include "C12832_lcd.h"
