@@ -138,7 +138,7 @@ void mandelbrot() {
     for (px = 0; px < w; px++) {
       c.r = xmin + px * dx;
       z.r = z2.r = z.i = z2.i = 0;
-      for (iter = 1; iter < maxiter && (z2.r + z2.i < 4); iter++) {        
+      for (iter = 1; iter < maxiter && (z2.r + z2.i < 4); iter++) {
         z.i = 2 * z.r * z.i + c.i;
         z.r = z2.r - z2.i + c.r;
         z2.r = z.r * z.r;
@@ -161,7 +161,7 @@ void julia() {
       z.i = ymax - py * dy;
       z2.r = z.r * z.r;
       z2.i = z.i * z.i;
-      for (iter = 1; iter < maxiter && (z2.r + z2.i < 4); iter++) {        
+      for (iter = 1; iter < maxiter && (z2.r + z2.i < 4); iter++) {
         z.i = 2 * z.r * z.i + c.i;
         z.r = z2.r - z2.i + c.r;
         z2.r = z.r * z.r;
@@ -247,7 +247,7 @@ void set_values(
     fprintf(f, "P6\n%d\n%d\n%d\n", w, h, maxiter < 256 ? 256 : maxiter);
   }
 #endif
-  
+
   dx = x / w;
   dy = y / h;
 }
